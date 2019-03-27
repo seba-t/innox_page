@@ -1,0 +1,55 @@
+.footer {
+  background-color: $base-color;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+
+  &__content-wrap {
+    padding: 120px 0 192px;
+  }
+
+  &__list {
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+  }
+
+  &__icon {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 14px;
+    transition: .3s;
+
+
+    &:hover {
+      background-color: #a88a78;
+    }
+  }
+
+  &__text {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    &__content-wrap {
+      padding: 16px 0;
+    }
+
+    &__list {
+      margin: 0 auto 32px;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,179 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$gray-accuracy-name: 'gray-accuracy';
+$gray-accuracy-x: 0px;
+$gray-accuracy-y: 0px;
+$gray-accuracy-offset-x: 0px;
+$gray-accuracy-offset-y: 0px;
+$gray-accuracy-width: 39px;
+$gray-accuracy-height: 32px;
+$gray-accuracy-total-width: 221px;
+$gray-accuracy-total-height: 147px;
+$gray-accuracy-image: '../img/sprite.png';
+$gray-accuracy: (0px, 0px, 0px, 0px, 39px, 32px, 221px, 147px, '../img/sprite.png', 'gray-accuracy', );
+$gray-design-name: 'gray-design';
+$gray-design-x: 128px;
+$gray-design-y: 0px;
+$gray-design-offset-x: -128px;
+$gray-design-offset-y: 0px;
+$gray-design-width: 33px;
+$gray-design-height: 34px;
+$gray-design-total-width: 221px;
+$gray-design-total-height: 147px;
+$gray-design-image: '../img/sprite.png';
+$gray-design: (128px, 0px, -128px, 0px, 33px, 34px, 221px, 147px, '../img/sprite.png', 'gray-design', );
+$gray-developer-name: 'gray-developer';
+$gray-developer-x: 0px;
+$gray-developer-y: 57px;
+$gray-developer-offset-x: 0px;
+$gray-developer-offset-y: -57px;
+$gray-developer-width: 40px;
+$gray-developer-height: 28px;
+$gray-developer-total-width: 221px;
+$gray-developer-total-height: 147px;
+$gray-developer-image: '../img/sprite.png';
+$gray-developer: (0px, 57px, 0px, -57px, 40px, 28px, 221px, 147px, '../img/sprite.png', 'gray-developer', );
+$gray-presentation-name: 'gray-presentation';
+$gray-presentation-x: 110px;
+$gray-presentation-y: 110px;
+$gray-presentation-offset-x: -110px;
+$gray-presentation-offset-y: -110px;
+$gray-presentation-width: 35px;
+$gray-presentation-height: 31px;
+$gray-presentation-total-width: 221px;
+$gray-presentation-total-height: 147px;
+$gray-presentation-image: '../img/sprite.png';
+$gray-presentation: (110px, 110px, -110px, -110px, 35px, 31px, 221px, 147px, '../img/sprite.png', 'gray-presentation', );
+$gray-production-name: 'gray-production';
+$gray-production-x: 186px;
+$gray-production-y: 56px;
+$gray-production-offset-x: -186px;
+$gray-production-offset-y: -56px;
+$gray-production-width: 31px;
+$gray-production-height: 28px;
+$gray-production-total-width: 221px;
+$gray-production-total-height: 147px;
+$gray-production-image: '../img/sprite.png';
+$gray-production: (186px, 56px, -186px, -56px, 31px, 28px, 221px, 147px, '../img/sprite.png', 'gray-production', );
+$gray-timing-name: 'gray-timing';
+$gray-timing-x: 0px;
+$gray-timing-y: 110px;
+$gray-timing-offset-x: 0px;
+$gray-timing-offset-y: -110px;
+$gray-timing-width: 30px;
+$gray-timing-height: 37px;
+$gray-timing-total-width: 221px;
+$gray-timing-total-height: 147px;
+$gray-timing-image: '../img/sprite.png';
+$gray-timing: (0px, 110px, 0px, -110px, 30px, 37px, 221px, 147px, '../img/sprite.png', 'gray-timing', );
+$white-accuracy-name: 'white-accuracy';
+$white-accuracy-x: 64px;
+$white-accuracy-y: 0px;
+$white-accuracy-offset-x: -64px;
+$white-accuracy-offset-y: 0px;
+$white-accuracy-width: 39px;
+$white-accuracy-height: 32px;
+$white-accuracy-total-width: 221px;
+$white-accuracy-total-height: 147px;
+$white-accuracy-image: '../img/sprite.png';
+$white-accuracy: (64px, 0px, -64px, 0px, 39px, 32px, 221px, 147px, '../img/sprite.png', 'white-accuracy', );
+$white-presentation-name: 'white-presentation';
+$white-presentation-x: 186px;
+$white-presentation-y: 0px;
+$white-presentation-offset-x: -186px;
+$white-presentation-offset-y: 0px;
+$white-presentation-width: 35px;
+$white-presentation-height: 31px;
+$white-presentation-total-width: 221px;
+$white-presentation-total-height: 147px;
+$white-presentation-image: '../img/sprite.png';
+$white-presentation: (186px, 0px, -186px, 0px, 35px, 31px, 221px, 147px, '../img/sprite.png', 'white-presentation', );
+$white-timing-name: 'white-timing';
+$white-timing-x: 55px;
+$white-timing-y: 110px;
+$white-timing-offset-x: -55px;
+$white-timing-offset-y: -110px;
+$white-timing-width: 30px;
+$white-timing-height: 37px;
+$white-timing-total-width: 221px;
+$white-timing-total-height: 147px;
+$white-timing-image: '../img/sprite.png';
+$white-timing: (55px, 110px, -55px, -110px, 30px, 37px, 221px, 147px, '../img/sprite.png', 'white-timing', );
+$spritesheet-width: 221px;
+$spritesheet-height: 147px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($gray-accuracy, $gray-design, $gray-developer, $gray-presentation, $gray-production, $gray-timing, $white-accuracy, $white-presentation, $white-timing, );
+$spritesheet: (221px, 147px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+  background-repeat: no-repeat;
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

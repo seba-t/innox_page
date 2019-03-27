@@ -1,0 +1,123 @@
+.team {
+
+  & .gallery {
+
+    &__item--join {
+      text-align: center;
+      border: 1px solid $base-color;
+      display: flex;
+      flex-direction: column;
+      width: 254px;
+    }
+
+    &__description {
+      padding: 0 20px 28px;
+    }
+
+    &__title {
+      padding-bottom: 8px;
+      position: relative;
+
+      &:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        border-bottom: 2px solid white;
+        width: 45px;
+      }
+    }
+
+    &__text {
+      margin: 8px 0 100px;
+
+      &--join {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+        color: $base-color;
+        margin: 0;
+      }
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__icon {
+      color: #fff;
+      cursor: pointer;
+      border: 1px solid #fff;
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: bottom;
+      font-size: 14px;
+      transition: .3s;
+
+      &:hover {
+        color: $base-color;
+        background-color: #fff;
+      }
+
+      &--join {
+        color: $base-color;
+        margin: 150px 0 40px;
+        cursor: default;
+        width: auto;
+      }
+    }
+  }
+
+  .button--join {
+    font-size: 10.5px;
+    height: 26px;
+    width: 108px;
+    position: relative;
+    margin: 68px auto;
+    border: 1px solid #fff;
+
+    &:hover {
+      background-color: $light-base-color;
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: -20px;
+      content: '';
+      border-top: 1px solid $base-color;
+      width: 16px;
+      z-index: -1;
+    }
+
+    &::after {
+      @extend .button--join::before;
+      left:inherit;
+      right: -20px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team {
+    .gallery {
+      &__item--join {
+        padding-top: 40px;
+        max-height: 250px;
+        display: block;
+      }
+
+      &__icon--join {
+        display: none;
+      }
+    }
+    .button--join {
+      margin: 30px auto 40px;
+    }
+  }
+}
